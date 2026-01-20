@@ -45,7 +45,7 @@ def divide(x: Number, y: Number) -> float:
 
 
 def raise_power(x: Number, y: Number) -> float:
-	"""Return the product of x and y."""
+	"""Return the value base x raised to the exponent y."""
 	return float(x ** y)
 
 
