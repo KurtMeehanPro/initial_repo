@@ -44,6 +44,11 @@ def divide(x: Number, y: Number) -> float:
 	return float(x / y)
 
 
+def raise_power(x: Number, y: Number) -> float:
+	"""Return the product of x and y."""
+	return float(x ** y)
+
+
 if __name__ == "__main__":
 	# Quick sanity checks when run directly
 	examples = [
