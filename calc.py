@@ -49,6 +49,11 @@ def raise_power(x: Number, y: Number) -> float:
 	return float(x ** y)
 
 
+def square(x: Number) -> float:
+	"""Return the value base x squared."""
+	return float(x ** 2)
+
+
 if __name__ == "__main__":
 	# Quick sanity checks when run directly
 	examples = [
